@@ -9,8 +9,8 @@ import java.util.UUID;
 @Setter
 @Getter
 public class Post {
-    private UUID uuid;
-    private UUID userUuid;
+    private UUID postId;
+    private UUID userId;
     private String title;
     private String content;
     private Date createdDate;

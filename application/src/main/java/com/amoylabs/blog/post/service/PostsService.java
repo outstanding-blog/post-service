@@ -21,8 +21,8 @@ public class PostsService {
 
     private Post mockPost(String title, String content) {
         Post post = new Post();
-        post.setUuid(UUID.randomUUID());
-        post.setUserUuid(UUID.randomUUID());
+        post.setPostId(UUID.randomUUID());
+        post.setUserId(UUID.fromString("c7b2eb87-f5c5-4558-a568-adba5f647690"));
         post.setTitle(title);
         post.setContent(content);
         post.setCreatedDate(Calendar.getInstance().getTime());
